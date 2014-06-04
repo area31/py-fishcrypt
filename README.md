@@ -200,12 +200,3 @@ COMMANDS:
 	/PRNCRYPT  : encrypts messages localy
 	/FISHUPDATE  : check online for new Version and update
 	/SET [fishcrypt]  : show/set fishcrypt settings
-
-
-    /key <nick|#channel> [<--network> <network>] [new_key] : show information or set key
-    /key_exchange <nick> : exchange a new key via dh1080
-    /key_list : list keys
-    /key_load : load keys from internal file
-    /key_pass <password> : set key file pass
-    /key_remove <nick|#channel> : remove key
-    /aes #channel/nick [1|0] or [True|False] : set/unset AES256CBC mode (default AES mode)
